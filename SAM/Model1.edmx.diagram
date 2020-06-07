@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4f251310f69047deb010e90cd6df0f8a" Name="Diagram1">
+        <EntityTypeShape EntityType="SAMModel.Agent" Width="1.5" PointX="8.625" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SAMModel.Apartment" Width="1.5" PointX="5.625" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="SAMModel.ApartmentFilter" Width="1.5" PointX="10.25" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SAMModel.Client" Width="1.5" PointX="4.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SAMModel.Deal" Width="1.5" PointX="5.125" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="SAMModel.Demand" Width="1.5" PointX="7.625" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SAMModel.House" Width="1.5" PointX="3.125" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SAMModel.HouseFilter" Width="1.5" PointX="10.375" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SAMModel.Land" Width="1.5" PointX="0.5" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SAMModel.LandFilter" Width="1.5" PointX="12.5" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SAMModel.Personal" Width="1.5" PointX="6.375" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SAMModel.RealEstate" Width="1.5" PointX="2.5" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SAMModel.RealEstateFilter" Width="1.5" PointX="9.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SAMModel.Supply" Width="1.5" PointX="1.875" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="SAMModel.FK_Agent_Personal" ManuallyRouted="false" />
+        <AssociationConnector Association="SAMModel.FK_Demand_Agent" ManuallyRouted="false" />
+        <AssociationConnector Association="SAMModel.FK_Supply_Agent" ManuallyRouted="false" />
+        <AssociationConnector Association="SAMModel.FK_Apartment_RealEstate" ManuallyRouted="false" />
+        <AssociationConnector Association="SAMModel.FK_ApartmentFilter_RealEstateFilter" ManuallyRouted="false" />
+        <AssociationConnector Association="SAMModel.FK_Client_Demand" ManuallyRouted="false" />
+        <AssociationConnector Association="SAMModel.FK_Client_Personal" ManuallyRouted="false" />
+        <AssociationConnector Association="SAMModel.FK_Supply_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="SAMModel.FK_Deal_Demand" ManuallyRouted="false" />
+        <AssociationConnector Association="SAMModel.FK_Deal_Supply" ManuallyRouted="false" />
+        <AssociationConnector Association="SAMModel.FK_Demand_RealEstateFilter" ManuallyRouted="false" />
+        <AssociationConnector Association="SAMModel.FK_House_RealEstate" ManuallyRouted="false" />
+        <AssociationConnector Association="SAMModel.FK_HouseFilter_RealEstateFilter" ManuallyRouted="false" />
+        <AssociationConnector Association="SAMModel.FK_Land_RealEstate" ManuallyRouted="false" />
+        <AssociationConnector Association="SAMModel.FK_LandFilter_RealEstateFilter" ManuallyRouted="false" />
+        <AssociationConnector Association="SAMModel.FK_Supply_RealEstate" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
