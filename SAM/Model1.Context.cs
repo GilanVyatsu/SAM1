@@ -26,18 +26,10 @@ namespace SAM
         }
     
         public virtual DbSet<Agent> Agent { get; set; }
-        public virtual DbSet<Apartment> Apartment { get; set; }
-        public virtual DbSet<ApartmentFilter> ApartmentFilter { get; set; }
         public virtual DbSet<Client> Client { get; set; }
         public virtual DbSet<Deal> Deal { get; set; }
         public virtual DbSet<Demand> Demand { get; set; }
-        public virtual DbSet<House> House { get; set; }
-        public virtual DbSet<HouseFilter> HouseFilter { get; set; }
-        public virtual DbSet<Land> Land { get; set; }
-        public virtual DbSet<LandFilter> LandFilter { get; set; }
         public virtual DbSet<Personal> Personal { get; set; }
-        public virtual DbSet<RealEstate> RealEstate { get; set; }
-        public virtual DbSet<RealEstateFilter> RealEstateFilter { get; set; }
         public virtual DbSet<Supply> Supply { get; set; }
     }
 }
