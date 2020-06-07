@@ -5,10 +5,10 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="bf4c78d525a3447cbddb20cfcd751774" Name="Diagram1">
-        <EntityTypeShape EntityType="SAMModel.Agent" Width="1.5" PointX="6.875" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="SAMModel.Agent" Width="1.5" PointX="5.875" PointY="3" IsExpanded="true" />
         <EntityTypeShape EntityType="SAMModel.Client" Width="1.5" PointX="2.75" PointY="3.125" IsExpanded="true" />
         <EntityTypeShape EntityType="SAMModel.Deal" Width="1.5" PointX="5.625" PointY="6.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="SAMModel.Demand" Width="1.5" PointX="8.375" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SAMModel.Demand" Width="1.5" PointX="8.625" PointY="3.75" IsExpanded="true" />
         <EntityTypeShape EntityType="SAMModel.Personal" Width="1.5" PointX="5" PointY="0.5" IsExpanded="true" />
         <EntityTypeShape EntityType="SAMModel.Supply" Width="1.5" PointX="1.25" PointY="6" IsExpanded="true" />
         <AssociationConnector Association="SAMModel.FK_Agent_Personal" ManuallyRouted="false" />
